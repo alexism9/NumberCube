@@ -2,7 +2,7 @@ Class NumberCube{
 
   public int toss(){
 }
-  public static int[] getCubeTosses(NumberCube cube;int numTosses){
+  public static int[] getCubeTosses(NumberCube cube;int numTosses;){
   
     int[]rolls=new int[numTosses];
     for(int j=0; j<numTosses;j++;){
@@ -12,7 +12,7 @@ Class NumberCube{
 }
 /* collects result of several tosses of a nuber cube /*
 
-  public static getLongestRun9int[]values){
+  public static getLongestRun(int[]values){
   
 //returns starting index of longest repeat cycle of a value
 
