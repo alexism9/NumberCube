@@ -37,7 +37,8 @@ Class NumberCube{
   for(int j=0;j<values.length;j++;){ 
   
       if(values[j]==indexValue;){
-        startIndex=[j];numAppearances++;}
+        startIndex=[j];
+        numAppearances++;}
         
           else{
               if(numApperances>highestRunCount;){
