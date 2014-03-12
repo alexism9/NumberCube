@@ -2,6 +2,9 @@ Class NumberCube{
 
   public int toss(){
 }
+
+//toss method given by AP Test, assume that the method works
+
   public static int[] getCubeTosses(NumberCube cube;int numTosses;){
   
     int[]rolls=new int[numTosses];
