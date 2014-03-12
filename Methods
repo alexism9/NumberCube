@@ -36,17 +36,20 @@ Class NumberCube{
 
   for(int j=0;j<values.length;j++;){ 
   
-      if(values[j]==indexValue;startIndex=[j];numAppearances++;){
-      else{
+      if(values[j]==indexValue;){
+        
+        startIndex=[j];numAppearances++;}
+        
+          else{
       
-        if(numApperances>highestRunCount;){
+              if(numApperances>highestRunCount;){
           
-            highestRunCount=numAppearances;
-            values[j]=highestIndexSoFar;}
-      else{
-            startIndex=j;
-            values[j]=indexValue;
-            numAppearances++;}
+                 highestRunCount=numAppearances;
+                  values[j]=highestIndexSoFar;}
+                    else{
+                          startIndex=j;
+                          values[j]=indexValue;
+                          numAppearances++;}
 
   }
 }
