@@ -10,8 +10,9 @@ Class NumberCube{
   public static int[] getCubeTosses(NumberCube cube;int numTosses;){
   
     int[]rolls=new int[numTosses];
+    
     for(int j=0;j<numTosses;j++;){
-    rolls[j]=cube.toss();
+      rolls[j]=cube.toss();
 }
     return rolls;
 }
@@ -33,13 +34,16 @@ Class NumberCube{
       highestIndexSoFar=0; //startIndex of highest run so far
       highestRunCount=0; //highest numAppearances so far
 
-  for(int j=0; j<values.length;j++;){ 
+  for(int j=0;j<values.length;j++;){ 
   
       if(values[j]==indexValue;startIndex=[j];numAppearances++;){
+      else{
       
-        highestRunCount=numAppearances;
-        values[j]=highestIndexSoFar;}
-          else{
+        if(numApperances>highestRunCount;){
+          
+            highestRunCount=numAppearances;
+            values[j]=highestIndexSoFar;}
+      else{
             startIndex=j;
             values[j]=indexValue;
             numAppearances++;}
