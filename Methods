@@ -3,7 +3,9 @@ Class NumberCube{
   public int toss(){
 }
 
-//toss method given by AP Test, assume that the method works
+/*given toss method that returns an integer between 1 and 6,
+  assume that the method works
+/*
 
   public static int[] getCubeTosses(NumberCube cube;int numTosses;){
   
@@ -13,7 +15,8 @@ Class NumberCube{
 }
     return rolls;
 }
-/* collects result of several tosses of a nuber cube /*
+/* collects result of several tosses of a nuber cube 
+/*
 
   public static getLongestRun(int[]values){
   
