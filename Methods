@@ -10,7 +10,7 @@ Class NumberCube{
   public static int[] getCubeTosses(NumberCube cube;int numTosses;){
   
     int[]rolls=new int[numTosses];
-    for(int j=0; j<numTosses;j++;){
+    for(int j=0;j<numTosses;j++;){
     rolls[j]=cube.toss();
 }
     return rolls;
