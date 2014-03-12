@@ -49,7 +49,7 @@ Class NumberCube{
                         startIndex=j;
                         values[j]=indexValue;
                         numAppearances++;}
-
+    return highestIndexSoFar;
   }
 }
       
